@@ -15,13 +15,13 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/ProfilePage"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:onClick="gotoProfilePageActivity"
-            android:background="#009e73"
-            app:srcCompat="@drawable/personalprofile" />
+        android:id="@+id/ProfilePage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="gotoProfilePageActivity"
+        android:background="#009e73"
+        app:srcCompat="@drawable/personalprofile" />
 
         <ImageButton
             android:id="@+id/Health"
@@ -30,6 +30,7 @@
             android:layout_weight="1"
             android:background="#e69f00"
             app:srcCompat="@drawable/heart1" />
+
         <ImageButton
             android:id="@+id/Personal"
             android:layout_width="match_parent"
@@ -38,6 +39,7 @@
             android:onClick="gotoGoalsMenuActivity"
             android:background="#009e73"
             app:srcCompat="@drawable/goals1" />
+
         <ImageButton
             android:id="@+id/Contacts"
             android:layout_width="match_parent"
@@ -46,6 +48,7 @@
             android:background="#e69f00"
             app:srcCompat="@drawable/contacts"
             android:onClick="gotoContactsActivity" />
+
         <ImageButton
             android:id="@+id/Settings"
             android:layout_width="match_parent"
@@ -53,6 +56,7 @@
             android:layout_weight="1"
             android:background="#009e73"
             android:onClick="gotoSettingsActivity" />
+
         <ImageButton
             android:id="@+id/logOut"
             android:layout_width="match_parent"
@@ -113,9 +117,6 @@
                 android:background="#009e73"
                 app:srcCompat="@drawable/personalprofile" />
 
-
-
-
         </LinearLayout>
         <EditText
             android:id="@+id/et_Hallergies"
@@ -132,9 +133,5 @@
             app:layout_constraintTop_toBottomOf="parent"
             tools:layout_editor_absoluteX="35dp" />
 
-
-
     </LinearLayout>
 </LinearLayout>
-
-

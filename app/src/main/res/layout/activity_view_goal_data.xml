@@ -7,13 +7,10 @@
     android:orientation="horizontal"
     tools:context="barryalan.ediary70.ViewGoalData">
 
-
-
     <ListView
         android:id="@+id/lv_Ggoals"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="9"></ListView>
-
 
 </LinearLayout>

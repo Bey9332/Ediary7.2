@@ -26,7 +26,7 @@
         <activity android:name=".longTermGoals" />
         <activity android:name=".contactsPage" />
         <activity android:name=".settingsPage" />
-        <activity android:name=".newGoal"></activity>
+        <activity android:name=".newGoal" />
         <activity android:name=".ViewGoalData" />
     </application>
 

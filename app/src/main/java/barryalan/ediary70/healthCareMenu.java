@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class healthCareMenu extends AppCompatActivity {
+public class healthCareMenu extends AppCompatActivity{
 
 }
 
